@@ -1,0 +1,87 @@
+body{
+    background-color: lightskyblue;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    width: 300px;
+    margin: 10px;
+}
+
+.container{
+    height: 258px;
+    width: 258px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: lightgreen;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;  
+    cursor: pointer;  
+}
+
+#popUp{
+    height: 150px;
+    width: 340px;
+    background-color:antiquewhite;
+    border: 3px yellowgreen solid;
+    border-radius: 20px;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+#winResult{
+    height: 60px;
+    border-bottom: 3px solid yellowgreen;
+    font-size:38px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+#playAgain{
+    height: 50px;
+    margin-top: 22px;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#playAgainBtn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#yes{
+    height: 80px;
+    margin: 0px 10px 0px 10px;
+}
+
+#yes:active{
+    transform: scale(3);
+    transition: all 3s ease;
+}
