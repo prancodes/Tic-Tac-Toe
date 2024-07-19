@@ -8,11 +8,19 @@ body{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+    background-image: url(https://uploads.gamedev.net/projects/monthly_2021_02/large.115f89ff84bd4f569118bb4f17ec6381.background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #logo{
     width: 300px;
     margin: 10px;
+}
+
+#logo:active{
+    transform: scale(0.1);
+    transition: all 2s ease;
 }
 
 .container{
@@ -36,6 +44,11 @@ body{
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;  
     cursor: pointer;  
+}
+
+.box:active{
+    transform: scale(0.7);
+    transition: all 1s ease;
 }
 
 #popUp{
@@ -79,9 +92,9 @@ body{
 #yes{
     height: 80px;
     margin: 0px 10px 0px 10px;
+    transition: all 1s ease;
 }
 
 #yes:active{
-    transform: scale(3);
-    transition: all 3s ease;
+    transform: scale(2);
 }
